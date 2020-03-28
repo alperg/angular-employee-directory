@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class DataService {
-  url: string = 'http://api.alperg.com/employees';
+  url: string = 'https://alper.dev/employees';
 
   constructor(private http: HttpClient) { }
 
